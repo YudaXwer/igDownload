@@ -1,0 +1,98 @@
+body {
+  color: white;
+}
+
+.container {
+  display: block;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.infoContainer {
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 #18ab29;
+  border-radius: 30px;
+}
+
+.info {
+  background-color: rgba(32, 32, 32, 0);
+  width: fit-content;
+  padding-left: 10px;
+  padding-top: 5px;
+  height: 50%;
+  text-align: start;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.span {
+  font-weight: bold;
+  color: rgb(238, 232, 170);
+  font-size: 18px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 20px;
+}
+
+.myButton {
+  margin-top: 30px;
+  background-color: rgb(32, 32, 32);
+  border-radius: 10px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(238, 232, 170);
+  font-family: Arial;
+  font-size: 20px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+.myButton:hover {
+  box-shadow: inset 0 8px 16px 0 #18ab29;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.img {
+  margin-top: 30px;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0 8px 16px 0 #18ab29;
+}
+.img:hover {
+  box-shadow: 0 16px 32px 0 #18ab29;
+}
+
+.header {
+  text-align: center;
+  color: rgb(238, 232, 170);
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
